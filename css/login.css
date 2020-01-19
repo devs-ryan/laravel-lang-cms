@@ -85,3 +85,11 @@ input:focus {
 .links a {
     margin-left: 4px;
 }
+
+.no-decor {
+    color: #FFC312 !important;
+}
+
+.no-decor:hover {
+    color: orange !important;
+}
