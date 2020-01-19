@@ -1,7 +1,8 @@
 <?php
-if (file_exists('./env.php')) {
-    include './env.php';
-}
+
+//load env variables
+include './autoload.php';
+$support_email = env('SUPPORT_EMAIL');
 
 ?>
 
@@ -67,7 +68,7 @@ if (file_exists('./env.php')) {
     <script>
         function showSupport() {
             Swal.fire(
-                'Need Help?',
+                'Need Support?',
                 'Contact <?php echo $support_email; ?> for help, or password reset.',
                 'question'
             )
