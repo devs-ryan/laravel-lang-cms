@@ -1,7 +1,6 @@
 <?php
 
-//load env variables
-include './autoload.php';
+include './app/autoload.php';
 $support_email = env('SUPPORT_EMAIL');
 
 ?>
@@ -10,7 +9,7 @@ $support_email = env('SUPPORT_EMAIL');
 <html>
 
 <head>
-    <title>Login</title>
+    <title>Lang CMS - Login</title>
 
     <!-- Bootstrap -->
     <script src="./includes/jquery.min.js"></script>
@@ -32,7 +31,7 @@ $support_email = env('SUPPORT_EMAIL');
         <div class="d-flex justify-content-center h-100">
             <div class="card">
                 <div class="card-header">
-                    <h3>Sign In</h3>
+                    <h3>Lang CMS - Login</h3>
                     <div class="d-flex justify-content-end social_icon">
                         <span>
                             <a class="no-decor" target="_blank" href="https://github.com/raysirsharp/laravel-lang-cms">
@@ -43,13 +42,13 @@ $support_email = env('SUPPORT_EMAIL');
                 </div>
                 <div class="card-body">
                     <p class="text-white">Please enter the administrative password provided to you by your web designer. </p>
-                    <form>
+                    <form method="post" action="./file_index.php">
 
                         <div class="input-group form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-key"></i></span>
                             </div>
-                            <input type="password" class="form-control" placeholder="password">
+                            <input name="password" required type="password" class="form-control" placeholder="password">
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Login" class="btn float-right login_btn">
@@ -65,6 +64,10 @@ $support_email = env('SUPPORT_EMAIL');
         </div>
     </div>
     
+    <!-- Messages --> 
+    <?php include './app/msg.php'; ?>
+    
+    <!-- SCRIPTS --> 
     <script>
         function showSupport() {
             Swal.fire(
