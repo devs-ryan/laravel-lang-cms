@@ -9,7 +9,7 @@ Laravel Lang CMS is a front-end content managment system for the 'lang' files in
 ## Install Instructions
 - Clone into your projects public directory
 - cd 'laravel-lang-cms'
-- 'cp .env_example.php .env'
+- 'cp .env_example.php .env.php'
 - set .env variables
 
 ## Frameworks and libraries
