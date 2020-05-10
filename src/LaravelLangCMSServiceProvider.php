@@ -18,7 +18,9 @@ class LaravelLangCMSServiceProvider extends ServiceProvider
         
         if ($this->app->runningInConsole()) {
             $this->commands([
-                //
+                Commands\EnableCommand::class,
+                Commands\EnableEditCommand::class,
+                Commands\SetCommand::class,
             ]);
         }
     }
