@@ -1,6 +1,6 @@
 {
     "name": "raysirsharp/laravel-lang-cms",
-    "description": "A content management system for Laravel projects.",
+    "description": "A content management system for Laravel project language files.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Raysirsharp\\LaravelEasyAdmin\\": "src/"
+            "Raysirsharp\\LaravelLangCMS\\": "src/"
         }
     },
     "extra": {
