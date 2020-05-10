@@ -13,7 +13,7 @@
 
 Laravel Lang CMS is a GUI editor for your projects language files. The primary intended use for this package is to avoid the use of lorum ipsum placeholders and waiting on copy to fill them from clients. Instead  Laravel Lang CMS allows the option for providing clients direct access to the Lang Editor back end to edit copy as they wish, without a need for setting up back end functionality and datebase storage.
 
-For more information on Laravel language files and how they work see: <a href="https://laravel.com/docs/7.x/localization">https://laravel.com/docs/7.x/localization</a>
+For more information on Laravel language files and how they work see: <a href="https://laravel.com/docs/7.x/localization">https://laravel.com/docs/7.x/localization</a>.
 
 ## Installation
 - `composer require raysirsharp/laravel-lang-cms`
