@@ -72,7 +72,12 @@ $support_email = env('SUPPORT_EMAIL');
         function showSupport() {
             Swal.fire(
                 'Need Support?',
-                'Contact <?php echo $support_email; ?> for help, or password reset.',
+                'Contact <?php 
+                    if ($support_email)
+                        echo $support_email;
+                    else
+                        echo "your system admin";
+                ?> for help, or password reset.',
                 'question'
             )
         }

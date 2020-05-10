@@ -13,6 +13,14 @@ if(file_exists($path . '/../env.php')) {
     include $path . '/../env.php';
 
     foreach ($variables as $key => $value) {
+        
+        //if !ENABLED die()
+        if ($key == 'ENABLED' && $value == false) {
+            echo "<h1>ERROR 404!</h1>";
+            echo "<h3>The language CMS has been disabled by your system admin.</h3>";
+            die();
+        }
+        
         putenv("$key=$value");
     }
 }
