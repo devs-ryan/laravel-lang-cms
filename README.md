@@ -16,6 +16,7 @@ TODO
 ## Installation
 - `composer require raysirsharp/laravel-lang-cms`
 - `php artisan vendor:publish --tag=public --force`
+- Access from http(s)://your-project-url.com/lang-cms
 
 ## Usage
 
