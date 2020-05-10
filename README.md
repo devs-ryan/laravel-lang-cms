@@ -1,24 +1,38 @@
-<h1 align="center">Laravel Lang C.M.S.</h1>
+<h2 align="center">Laravel Lang C.M.S.</h2>
+<h3 align="center">~ A content management system for Laravel project language files.</h3>
+<br><br>
+<p align="center"><img src="https://raw.githubusercontent.com/raysirsharp/img-storage/master/lang-cms-header.png"></p>
+<p align="center">
+<a target="_blank" href="https://laravel.com/"><img src="https://img.shields.io/badge/Built%20For-Laravel-orange" alt="Built For Laravel"></a>
+<a target="_blank" href="https://packagist.org/packages/raysirsharp/laravel-lang-cms"><img src="https://img.shields.io/badge/Current%20Version-0.1.1-blue" alt="Version"></a>
+<a target="_blank" href="https://packagist.org/packages/raysirsharp/laravel-lang-cms"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
+<a target="_blank" href="https://laravel.com/"><img src="https://img.shields.io/badge/Requires-Laravel%20%5E7.0-red" alt="Requires"></a>
+</p>
 
-## Introduction
+## What is Laravel Lang CMS
 
-Laravel Lang CMS is a front-end content managment system for the 'lang' files in a laravel project. Place this code base in your apps 'public' folder and access from https://{PROJECT_URL}/lang-cms. This will give you a full password protected CRUD capabilities for language files within your project.
+TODO
 
-<i>Note: The default Laravel lang files are not indexed by default. The main purpose of this package is to allow a UI for clients to replace lorum ipsum, or edit text variables over time.</i>
+## Installation
+- `composer require raysirsharp/laravel-lang-cms`
+- `php artisan vendor:publish --tag=public --force`
 
-## Install Instructions
-- Clone into your projects public directory
-- cd 'laravel-lang-cms'
-- 'cp .env_example.php env.php'
-- set env.php variables
+## Usage
 
-## Frameworks and libraries
+#### Enable/Disable
+- `php artisan lang-cms:toggle {--off} {--on}`
 
-- Bootstrap 4.3.1
-- Font Awesome Free 5.12.0
-- jQuery 3.4.1
-- Sweet Alert 2
+#### Edit/No Edit
+Activate / Diable "view only" mode 
+- `php artisan lang-cms:edit {--off} {--on}`
 
-## License
+#### Change access password
+The default access password is "lang-cms-admin", to change it (reccomended) use:
+- `php artisan lang-cms:set password`
 
+#### Change support email
+The default support email address is NULL. The support message in this case states to contact the system admin for help logging in. If you wish to specify a support email address instead use:
+- `php artisan lang-cms:set support_email`
+
+## Licence
 Laravel Lang CMS is open-sourced software licensed under the [MIT license](LICENSE.md).
