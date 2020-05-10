@@ -1,0 +1,29 @@
+{
+    "name": "raysirsharp/laravel-lang-cms",
+    "description": "A content management system for Laravel projects.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Claxton",
+            "email": "raysirsharp@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Raysirsharp\\LaravelEasyAdmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Raysirsharp\\LaravelLangCMS\\LaravelLangCMSServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^6.0",
+    },
+    "minimum-stability": "dev"
+}
