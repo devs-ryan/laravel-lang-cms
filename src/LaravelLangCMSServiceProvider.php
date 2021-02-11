@@ -1,5 +1,5 @@
 <?php
-namespace Raysirsharp\LaravelLangCMS;
+namespace DevsRyan\LaravelLangCMS;
 
 use Illuminate\Support\ServiceProvider;
 

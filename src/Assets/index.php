@@ -34,7 +34,7 @@ $support_email = env('SUPPORT_EMAIL');
                     <h3>Lang CMS - Login</h3>
                     <div class="d-flex justify-content-end social_icon">
                         <span>
-                            <a class="no-decor" target="_blank" href="https://github.com/raysirsharp/laravel-lang-cms">
+                            <a class="no-decor" target="_blank" href="https://github.com/DevsRyan/laravel-lang-cms">
                                 <i class="fab fa-github"></i>
                             </a>
                         </span>

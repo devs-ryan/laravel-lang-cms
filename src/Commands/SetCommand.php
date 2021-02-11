@@ -1,6 +1,6 @@
 <?php
 
-namespace Raysirsharp\LaravelLangCMS\Commands;
+namespace DevsRyan\LaravelLangCMS\Commands;
 
 use Illuminate\Console\Command;
 

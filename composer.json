@@ -1,23 +1,23 @@
 {
-    "name": "raysirsharp/laravel-lang-cms",
+    "name": "DevsRyan/laravel-lang-cms",
     "description": "A content management system for Laravel project language files.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Ryan Claxton",
-            "email": "raysirsharp@gmail.com"
+            "email": "DevsRyan@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Raysirsharp\\LaravelLangCMS\\": "src/"
+            "DevsRyan\\LaravelLangCMS\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Raysirsharp\\LaravelLangCMS\\LaravelLangCMSServiceProvider"
+                "DevsRyan\\LaravelLangCMS\\LaravelLangCMSServiceProvider"
             ]
         }
     },
