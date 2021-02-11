@@ -1,12 +1,12 @@
 {
-    "name": "DevsRyan/laravel-lang-cms",
+    "name": "devs_ryan/laravel-lang-cms",
     "description": "A content management system for Laravel project language files.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Ryan Claxton",
-            "email": "DevsRyan@gmail.com"
+            "email": "rclaxton.dev@gmail.com"
         }
     ],
     "autoload": {
