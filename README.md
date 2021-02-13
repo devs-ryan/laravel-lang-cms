@@ -16,7 +16,7 @@ Laravel Lang CMS is a GUI editor for your projects language files. The primary i
 For more information on Laravel language files and how they work see: <a href="https://laravel.com/docs/7.x/localization">https://laravel.com/docs/7.x/localization</a>.
 
 ## Installation
-- `composer require DevsRyan/laravel-lang-cms`
+- `composer require devs_ryan/laravel-lang-cms`
 - `php artisan vendor:publish --tag=public --force`
 - Access from <a href="https://github.com/DevsRyan/laravel-lang-cms">http(s)://your-project-url.com/lang-cms</a>
 
