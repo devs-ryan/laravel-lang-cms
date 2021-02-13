@@ -1,7 +1,7 @@
 <h2 align="center">Laravel Lang C.M.S.</h2>
 <h3 align="center">~ A content management system for Laravel project language files.</h3>
 <br><br>
-<p align="center"><img src="https://raw.githubusercontent.com/DevsRyan/img-storage/master/lang-cms-header.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/devs-ryan/img-storage/master/lang-cms-header.png"></p>
 <p align="center">
 <a target="_blank" href="https://laravel.com/"><img src="https://img.shields.io/badge/Built%20For-Laravel-orange" alt="Built For Laravel"></a>
 <a target="_blank" href="https://packagist.org/packages/DevsRyan/laravel-lang-cms"><img src="https://img.shields.io/badge/Current%20Version-0.1.1-blue" alt="Version"></a>
